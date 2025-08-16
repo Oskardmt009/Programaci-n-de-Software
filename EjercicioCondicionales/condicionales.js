@@ -65,3 +65,18 @@ else
     vlrPagar=(costo*ivaInc)+costo
     console.log("El valor a pagar del producto es: "+vlrPagar)
 }
+
+//Realizar un algoritmo que lea dos números e imprima la suma de los 2, 
+// en caso que el primero sea mayor al segundo
+
+let num1=5, num2=7;
+
+if(num1>num2)
+{
+    suma = num1+num2;
+    console.log("La suma es: " + suma)
+}
+else
+{
+    console.log("No hay suma")
+}
