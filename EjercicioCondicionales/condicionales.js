@@ -47,7 +47,7 @@ const porc = 10;
 let costo = 2000000;
 let dcto = porc/100;
 const iva = 19
-ivaInc = iva/100
+let ivaInc = iva/100
 let vlrTotal = 0
 let costoIva = 0;
 let costoTotal = 0;
@@ -120,11 +120,11 @@ else
 let num3 = 15;
 if(num3 % 5 === 0)
 {
-    console.log("El número " + num3 + "Es múltiplo de 5")
+    console.log("El número " + num3 + " Es múltiplo de 5")
 }
 else
 {
-    console.log("El número " + num3 + "No es múltiplo de 5")
+    console.log("El número " + num3 + " No es múltiplo de 5")
 }
 
 //Leer la edad de una persona e imprimir un mensaje en caso que sea mayor de edad.
