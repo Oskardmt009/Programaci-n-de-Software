@@ -54,7 +54,7 @@ let costoTotal = 0;
 
 if(costo >=1000000)
 {
-    vlrTotal= (costo*dcto)+costo;
+    vlrTotal= costo -(costo*dcto)
     costoIva = vlrTotal*ivaInc;
     vlrPagar = vlrTotal+costoIva;
 
@@ -159,7 +159,7 @@ else
 //Hacer un algoritmo que imprima el nombre de un artículo, clave, precio original 
 // y su precio con descuento. El descuento lo hace en base a la clave, si la 
 // clave es 01 el descuento es del 10% y si la clave es 02 el descuento es del 20% 
-// (solo existen dos claves).
+// (solo existen dos claves)'''
 
 let articulo = "camisa";
 let clave = 1;
